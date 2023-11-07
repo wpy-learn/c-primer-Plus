@@ -33,7 +33,6 @@ Person::Person()
 Person::Person(const std::string& ln, const char* fn )
 {
 	lname = ln;
-	fn = "Heyyou";
 	fname[0] = *fn;
 }
 
