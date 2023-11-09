@@ -34,6 +34,7 @@ void sales::setSales(Sales& s)
 	cin >> n;
 	for (int i = 0; i < n; i++)
 	{
+		cout << "请输入第" << i << "个数字：";
 		cin >> s.sales[i];
 		s.average += s.sales[i];
 	}
