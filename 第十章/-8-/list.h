@@ -6,7 +6,7 @@ typedef unsigned long Item;
 class List
 {
 public:
-	List();
+	List(int = 0);
 	bool isempty() const;//判断是否为空
 	bool isfull() const;//判断是否为满
 	bool insert(Item item);//插入数据
