@@ -1,6 +1,6 @@
 #include"list.h"
 
-List::List()
+List::List(int n)
 {
 	top = 0;
 }
